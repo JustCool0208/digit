@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digit Recognition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Draw 'a' Digit</h1>
+    <canvas id="canvas"></canvas>
+    <button onclick="clearCanvas()">Clear</button>
+    <br>
+    <label>Select Operation:</label>
+    <select id="operation">
+        <option value="add">+</option>
+        <option value="subtract">-</option>
+        <option value="multiply">×</option>
+        <option value="divide">÷</option>
+    </select>
+    <input type="number" id="secondNumber" placeholder="Enter second number">
+    <button onclick="sendData()">Submit</button>
+    <h2 id="result"></h2>
+    <script src="script.js"></script>
+</body>
+</html>
